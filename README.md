@@ -65,7 +65,7 @@ The key elements of the Context Support are:
 that allows different sub-contexts to be propagated.
 * Languages that already have this support, like [Go][goContext] or C# (ExecutionContext), MUST 
 use the language supported generic context instead of building their own.
-* For an explicit generic context implementation you can look at the Java [io.grpc.Context][gRPCContext].
+* For an implicit generic context implementation you can look at the Java [io.grpc.Context][gRPCContext].
 
 
 #### Trace
